@@ -1,0 +1,332 @@
+
+====================================
+            Glide Script            
+====================================
+
+mmshare         e9a722a949
+glide-src       f325b7040c
+psp-src         84e23cbc45
+macromodel-src  b689b3efae
+epik-src        c3de59d94f
+
+--------------------------------------------------------------------------------
+JobId          : alisagorislavs-MacBook-Air-0-6360d518
+Name           : glide-dock_allosteric
+Program        : Glide
+Version        : 2022-2 build 128
+Host           : alisagorislavs-MacBook-Air.local
+Dir            : /Users/alisagorislav/Documents/cancerhsp_virtual-screening/glide-dock_allosteric
+HostEntry      : localhost
+JobHost        : alisagorislavs-MacBook-Air.local
+JobDir         : /Users/alisagorislav/.schrodinger/tmp/glide-dock_allosteric
+JobSchrodinger : /opt/schrodinger/suites2022-2
+Commandline    : /opt/schrodinger/suites2022-2/glide glide-dock_allosteric.in -OVERWRITE -adjust -HOST localhost:1 -PROJ /var/folders/7f/r6y7pww15x53z42m3h5vt12r0000gn/T/alisagorislav/Tmp_01Nov2022_1026_08638 -DISP append -VIEWNAME glide_docking_gui.DockingPanel -TMPLAUNCHDIR
+StartTime      : 2022-11-01-11:13:12
+--------------------------------------------------------------------------------
+
+Running locally: False
+Max retries: 2
+Input file: glide-dock_allosteric.in
+
+Setting up docking job
+Separating ligands...
+Number of structures that are to be docked: 362
+Setting up Glide docking jobs...
+
+Running subjobs on hosts:
+  localhost (Max: 1)
+Number of jobs:       6
+Max retries per job:  2
+Max allowed failures: unlimited
+Verbosity:            normal
+
+Starting JobDJ...
+
+Keep one job on driver host: False
+JobDJ columns:
+  C: Number of completed subjobs
+  A: Number of active subjobs (e.g., submitted, running)
+  W: Number of waiting/pending subjobs
+
+C A W | Activity  JobId  JobName  JobHost
+- - - | --------- -----------------------
+0 1 5 | launched  alisagorislavs-MacBook-Air-0-6360d51f glide-dock_allosteric-0001 localhost [alisagorislavs-MacBook-Air]
+1 0 5 | finished  alisagorislavs-MacBook-Air-0-6360d51f glide-dock_allosteric-0001 localhost [alisagorislavs-MacBook-Air]
+1 1 4 | launched  alisagorislavs-MacBook-Air-0-6360ec76 glide-dock_allosteric-0002 localhost [alisagorislavs-MacBook-Air]
+2 0 4 | finished  alisagorislavs-MacBook-Air-0-6360ec76 glide-dock_allosteric-0002 localhost [alisagorislavs-MacBook-Air]
+WARNING: Job launch failed for 1/2 times.
+% glide -RESTART -serial glide-dock_allosteric-0003.inp -HOST localhost
+Output
+Process exited with non-zero exit code: 15
+Command: {"/opt/schrodinger/suites2022-2/glide", "-RESTART", "-serial", "glide-dock_allosteric-0003.inp", "-HOST", "localhost"}
+Output: FATAL -7: Could not check out a license for mmlibs version 5.8.
+
+WARNING: Job launch failed for 2/2 times.
+% glide -RESTART -serial glide-dock_allosteric-0003.inp -HOST localhost
+Output
+Process exited with non-zero exit code: 15
+Command: {"/opt/schrodinger/suites2022-2/glide", "-RESTART", "-serial", "glide-dock_allosteric-0003.inp", "-HOST", "localhost"}
+Output: FATAL -7: Could not check out a license for mmlibs version 5.8.
+
+WARNING: Job launch failed: Process exited with non-zero exit code: 15
+Command: {"/opt/schrodinger/suites2022-2/glide", "-RESTART", "-serial", "glide-dock_allosteric-0003.inp", "-HOST", "localhost"}
+Output: FATAL -7: Could not check out a license for mmlibs version 5.8.
+
+WARNING: Job launch failed for 1/2 times.
+% glide -RESTART -serial glide-dock_allosteric-0004.inp -HOST localhost
+Output
+Process exited with non-zero exit code: 15
+Command: {"/opt/schrodinger/suites2022-2/glide", "-RESTART", "-serial", "glide-dock_allosteric-0004.inp", "-HOST", "localhost"}
+Output: FATAL -7: Could not check out a license for mmlibs version 5.8.
+
+WARNING: Job launch failed for 2/2 times.
+% glide -RESTART -serial glide-dock_allosteric-0004.inp -HOST localhost
+Output
+Process exited with non-zero exit code: 15
+Command: {"/opt/schrodinger/suites2022-2/glide", "-RESTART", "-serial", "glide-dock_allosteric-0004.inp", "-HOST", "localhost"}
+Output: FATAL -7: Could not check out a license for mmlibs version 5.8.
+
+WARNING: Job launch failed: Process exited with non-zero exit code: 15
+Command: {"/opt/schrodinger/suites2022-2/glide", "-RESTART", "-serial", "glide-dock_allosteric-0004.inp", "-HOST", "localhost"}
+Output: FATAL -7: Could not check out a license for mmlibs version 5.8.
+
+WARNING: Job launch failed for 1/2 times.
+% glide -RESTART -serial glide-dock_allosteric-0005.inp -HOST localhost
+Output
+Process exited with non-zero exit code: 15
+Command: {"/opt/schrodinger/suites2022-2/glide", "-RESTART", "-serial", "glide-dock_allosteric-0005.inp", "-HOST", "localhost"}
+Output: FATAL -7: Could not check out a license for mmlibs version 5.8.
+
+WARNING: Job launch failed for 2/2 times.
+% glide -RESTART -serial glide-dock_allosteric-0005.inp -HOST localhost
+Output
+Process exited with non-zero exit code: 15
+Command: {"/opt/schrodinger/suites2022-2/glide", "-RESTART", "-serial", "glide-dock_allosteric-0005.inp", "-HOST", "localhost"}
+Output: FATAL -7: Could not check out a license for mmlibs version 5.8.
+
+WARNING: Job launch failed: Process exited with non-zero exit code: 15
+Command: {"/opt/schrodinger/suites2022-2/glide", "-RESTART", "-serial", "glide-dock_allosteric-0005.inp", "-HOST", "localhost"}
+Output: FATAL -7: Could not check out a license for mmlibs version 5.8.
+
+WARNING: Job launch failed for 1/2 times.
+% glide -RESTART -serial glide-dock_allosteric-0006.inp -HOST localhost
+Output
+Process exited with non-zero exit code: 15
+Command: {"/opt/schrodinger/suites2022-2/glide", "-RESTART", "-serial", "glide-dock_allosteric-0006.inp", "-HOST", "localhost"}
+Output: FATAL -7: Could not check out a license for mmlibs version 5.8.
+
+WARNING: Job launch failed for 2/2 times.
+% glide -RESTART -serial glide-dock_allosteric-0006.inp -HOST localhost
+Output
+Process exited with non-zero exit code: 15
+Command: {"/opt/schrodinger/suites2022-2/glide", "-RESTART", "-serial", "glide-dock_allosteric-0006.inp", "-HOST", "localhost"}
+Output: FATAL -7: Could not check out a license for mmlibs version 5.8.
+
+WARNING: Job launch failed: Process exited with non-zero exit code: 15
+Command: {"/opt/schrodinger/suites2022-2/glide", "-RESTART", "-serial", "glide-dock_allosteric-0006.inp", "-HOST", "localhost"}
+Output: FATAL -7: Could not check out a license for mmlibs version 5.8.
+
+WARNING: Job launch failed for 1/2 times.
+% glide -RESTART -serial glide-dock_allosteric-0003.inp -HOST localhost
+Output
+Process exited with non-zero exit code: 15
+Command: {"/opt/schrodinger/suites2022-2/glide", "-RESTART", "-serial", "glide-dock_allosteric-0003.inp", "-HOST", "localhost"}
+Output: FATAL -7: Could not check out a license for mmlibs version 5.8.
+
+WARNING: Job launch failed for 2/2 times.
+% glide -RESTART -serial glide-dock_allosteric-0003.inp -HOST localhost
+Output
+Process exited with non-zero exit code: 15
+Command: {"/opt/schrodinger/suites2022-2/glide", "-RESTART", "-serial", "glide-dock_allosteric-0003.inp", "-HOST", "localhost"}
+Output: FATAL -7: Could not check out a license for mmlibs version 5.8.
+
+WARNING: Job launch failed: Process exited with non-zero exit code: 15
+Command: {"/opt/schrodinger/suites2022-2/glide", "-RESTART", "-serial", "glide-dock_allosteric-0003.inp", "-HOST", "localhost"}
+Output: FATAL -7: Could not check out a license for mmlibs version 5.8.
+
+WARNING: Job launch failed for 1/2 times.
+% glide -RESTART -serial glide-dock_allosteric-0004.inp -HOST localhost
+Output
+Process exited with non-zero exit code: 15
+Command: {"/opt/schrodinger/suites2022-2/glide", "-RESTART", "-serial", "glide-dock_allosteric-0004.inp", "-HOST", "localhost"}
+Output: FATAL -7: Could not check out a license for mmlibs version 5.8.
+
+WARNING: Job launch failed for 2/2 times.
+% glide -RESTART -serial glide-dock_allosteric-0004.inp -HOST localhost
+Output
+Process exited with non-zero exit code: 15
+Command: {"/opt/schrodinger/suites2022-2/glide", "-RESTART", "-serial", "glide-dock_allosteric-0004.inp", "-HOST", "localhost"}
+Output: FATAL -7: Could not check out a license for mmlibs version 5.8.
+
+WARNING: Job launch failed: Process exited with non-zero exit code: 15
+Command: {"/opt/schrodinger/suites2022-2/glide", "-RESTART", "-serial", "glide-dock_allosteric-0004.inp", "-HOST", "localhost"}
+Output: FATAL -7: Could not check out a license for mmlibs version 5.8.
+
+WARNING: Job launch failed for 1/2 times.
+% glide -RESTART -serial glide-dock_allosteric-0005.inp -HOST localhost
+Output
+Process exited with non-zero exit code: 15
+Command: {"/opt/schrodinger/suites2022-2/glide", "-RESTART", "-serial", "glide-dock_allosteric-0005.inp", "-HOST", "localhost"}
+Output: FATAL -7: Could not check out a license for mmlibs version 5.8.
+
+WARNING: Job launch failed for 2/2 times.
+% glide -RESTART -serial glide-dock_allosteric-0005.inp -HOST localhost
+Output
+Process exited with non-zero exit code: 15
+Command: {"/opt/schrodinger/suites2022-2/glide", "-RESTART", "-serial", "glide-dock_allosteric-0005.inp", "-HOST", "localhost"}
+Output: FATAL -7: Could not check out a license for mmlibs version 5.8.
+
+WARNING: Job launch failed: Process exited with non-zero exit code: 15
+Command: {"/opt/schrodinger/suites2022-2/glide", "-RESTART", "-serial", "glide-dock_allosteric-0005.inp", "-HOST", "localhost"}
+Output: FATAL -7: Could not check out a license for mmlibs version 5.8.
+
+WARNING: Job launch failed for 1/2 times.
+% glide -RESTART -serial glide-dock_allosteric-0006.inp -HOST localhost
+Output
+Process exited with non-zero exit code: 15
+Command: {"/opt/schrodinger/suites2022-2/glide", "-RESTART", "-serial", "glide-dock_allosteric-0006.inp", "-HOST", "localhost"}
+Output: FATAL -7: Could not check out a license for mmlibs version 5.8.
+
+WARNING: Job launch failed for 2/2 times.
+% glide -RESTART -serial glide-dock_allosteric-0006.inp -HOST localhost
+Output
+Process exited with non-zero exit code: 15
+Command: {"/opt/schrodinger/suites2022-2/glide", "-RESTART", "-serial", "glide-dock_allosteric-0006.inp", "-HOST", "localhost"}
+Output: FATAL -7: Could not check out a license for mmlibs version 5.8.
+
+WARNING: Job launch failed: Process exited with non-zero exit code: 15
+Command: {"/opt/schrodinger/suites2022-2/glide", "-RESTART", "-serial", "glide-dock_allosteric-0006.inp", "-HOST", "localhost"}
+Output: FATAL -7: Could not check out a license for mmlibs version 5.8.
+
+WARNING: Job launch failed for 1/2 times.
+% glide -RESTART -serial glide-dock_allosteric-0003.inp -HOST localhost
+Output
+Process exited with non-zero exit code: 15
+Command: {"/opt/schrodinger/suites2022-2/glide", "-RESTART", "-serial", "glide-dock_allosteric-0003.inp", "-HOST", "localhost"}
+Output: FATAL -7: Could not check out a license for mmlibs version 5.8.
+
+WARNING: Job launch failed for 2/2 times.
+% glide -RESTART -serial glide-dock_allosteric-0003.inp -HOST localhost
+Output
+Process exited with non-zero exit code: 15
+Command: {"/opt/schrodinger/suites2022-2/glide", "-RESTART", "-serial", "glide-dock_allosteric-0003.inp", "-HOST", "localhost"}
+Output: FATAL -7: Could not check out a license for mmlibs version 5.8.
+
+WARNING: Job launch failed: Process exited with non-zero exit code: 15
+Command: {"/opt/schrodinger/suites2022-2/glide", "-RESTART", "-serial", "glide-dock_allosteric-0003.inp", "-HOST", "localhost"}
+Output: FATAL -7: Could not check out a license for mmlibs version 5.8.
+
+WARNING: Job launch failed for 1/2 times.
+% glide -RESTART -serial glide-dock_allosteric-0004.inp -HOST localhost
+Output
+Process exited with non-zero exit code: 15
+Command: {"/opt/schrodinger/suites2022-2/glide", "-RESTART", "-serial", "glide-dock_allosteric-0004.inp", "-HOST", "localhost"}
+Output: FATAL -7: Could not check out a license for mmlibs version 5.8.
+
+WARNING: Job launch failed for 2/2 times.
+% glide -RESTART -serial glide-dock_allosteric-0004.inp -HOST localhost
+Output
+Process exited with non-zero exit code: 15
+Command: {"/opt/schrodinger/suites2022-2/glide", "-RESTART", "-serial", "glide-dock_allosteric-0004.inp", "-HOST", "localhost"}
+Output: FATAL -7: Could not check out a license for mmlibs version 5.8.
+
+WARNING: Job launch failed: Process exited with non-zero exit code: 15
+Command: {"/opt/schrodinger/suites2022-2/glide", "-RESTART", "-serial", "glide-dock_allosteric-0004.inp", "-HOST", "localhost"}
+Output: FATAL -7: Could not check out a license for mmlibs version 5.8.
+
+WARNING: Job launch failed for 1/2 times.
+% glide -RESTART -serial glide-dock_allosteric-0005.inp -HOST localhost
+Output
+Process exited with non-zero exit code: 15
+Command: {"/opt/schrodinger/suites2022-2/glide", "-RESTART", "-serial", "glide-dock_allosteric-0005.inp", "-HOST", "localhost"}
+Output: FATAL -7: Could not check out a license for mmlibs version 5.8.
+
+WARNING: Job launch failed for 2/2 times.
+% glide -RESTART -serial glide-dock_allosteric-0005.inp -HOST localhost
+Output
+Process exited with non-zero exit code: 15
+Command: {"/opt/schrodinger/suites2022-2/glide", "-RESTART", "-serial", "glide-dock_allosteric-0005.inp", "-HOST", "localhost"}
+Output: FATAL -7: Could not check out a license for mmlibs version 5.8.
+
+WARNING: Job launch failed: Process exited with non-zero exit code: 15
+Command: {"/opt/schrodinger/suites2022-2/glide", "-RESTART", "-serial", "glide-dock_allosteric-0005.inp", "-HOST", "localhost"}
+Output: FATAL -7: Could not check out a license for mmlibs version 5.8.
+
+WARNING: Job launch failed for 1/2 times.
+% glide -RESTART -serial glide-dock_allosteric-0006.inp -HOST localhost
+Output
+Process exited with non-zero exit code: 15
+Command: {"/opt/schrodinger/suites2022-2/glide", "-RESTART", "-serial", "glide-dock_allosteric-0006.inp", "-HOST", "localhost"}
+Output: FATAL -7: Could not check out a license for mmlibs version 5.8.
+
+WARNING: Job launch failed for 2/2 times.
+% glide -RESTART -serial glide-dock_allosteric-0006.inp -HOST localhost
+Output
+Process exited with non-zero exit code: 15
+Command: {"/opt/schrodinger/suites2022-2/glide", "-RESTART", "-serial", "glide-dock_allosteric-0006.inp", "-HOST", "localhost"}
+Output: FATAL -7: Could not check out a license for mmlibs version 5.8.
+
+WARNING: Job launch failed: Process exited with non-zero exit code: 15
+Command: {"/opt/schrodinger/suites2022-2/glide", "-RESTART", "-serial", "glide-dock_allosteric-0006.inp", "-HOST", "localhost"}
+Output: FATAL -7: Could not check out a license for mmlibs version 5.8.
+
+3 0 3 | failed to launch None basejob[2] localhost
+ERROR: Subjob 'basejob[2]' has failed after 2 retries.
+Process exited with non-zero exit code: 15
+Command: {"/opt/schrodinger/suites2022-2/glide", "-RESTART", "-serial", "glide-dock_allosteric-0003.inp", "-HOST", "localhost"}
+Output: FATAL -7: Could not check out a license for mmlibs version 5.8.
+
+4 0 2 | failed to launch None basejob[3] localhost
+ERROR: Subjob 'basejob[3]' has failed after 2 retries.
+Process exited with non-zero exit code: 15
+Command: {"/opt/schrodinger/suites2022-2/glide", "-RESTART", "-serial", "glide-dock_allosteric-0004.inp", "-HOST", "localhost"}
+Output: FATAL -7: Could not check out a license for mmlibs version 5.8.
+
+5 0 1 | failed to launch None basejob[4] localhost
+ERROR: Subjob 'basejob[4]' has failed after 2 retries.
+Process exited with non-zero exit code: 15
+Command: {"/opt/schrodinger/suites2022-2/glide", "-RESTART", "-serial", "glide-dock_allosteric-0005.inp", "-HOST", "localhost"}
+Output: FATAL -7: Could not check out a license for mmlibs version 5.8.
+
+6 0 0 | failed to launch None basejob[5] localhost
+ERROR: Subjob 'basejob[5]' has failed after 2 retries.
+Process exited with non-zero exit code: 15
+Command: {"/opt/schrodinger/suites2022-2/glide", "-RESTART", "-serial", "glide-dock_allosteric-0006.inp", "-HOST", "localhost"}
+Output: FATAL -7: Could not check out a license for mmlibs version 5.8.
+
+
+All jobs have completed.
+
+2 of 6 job(s) succeeded; 4 job(s) failed.
+
+Some jobs failed: 144 of 362 ligands done.
+Writing 142 poses to glide-dock_allosteric_pv.maegz; database holds 142 poses.
+Best docking score: -11.882
+
+Some ligands were not docked for the following reasons:
+
+   Count  Reason
+--------  ------------------------------------------------------------
+       2  PROBLEM IN CONFGEN
+
+Writing glide-dock_allosteric.csv
+Combining log files to glide-dock_allosteric_subjobs.log
+[Errno 2] No such file or directory: 'glide-dock_allosteric-0003.log'
+[Errno 2] No such file or directory: 'glide-dock_allosteric-0004.log'
+[Errno 2] No such file or directory: 'glide-dock_allosteric-0005.log'
+[Errno 2] No such file or directory: 'glide-dock_allosteric-0006.log'
+Archiving subjob pose files in glide-dock_allosteric_subjob_poses.zip
+Archiving subjob input and log files in glide-dock_allosteric_subjobs.tar.gz
+Cleaning up...
+
+Elapsed times:
+- preprocessing: 0.2 s
+- running subjobs: 31356.1 s
+- postprocessing: 0.5 s
+- cleanup: 0.0 s
+
+All Glide docking subjobs: Total CPU time = 23987 seconds (6 h 39 min 47 s)
+
+Finished at: Tue Nov  1 19:55:52 2022
+Total elapsed time for Glide script = 31357 seconds (8 h 42 min 37 s)
+[running at reduced cpu priority]

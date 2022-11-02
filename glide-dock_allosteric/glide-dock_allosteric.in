@@ -1,0 +1,6 @@
+FORCEFIELD   OPLS_2005
+GRIDFILE   /Users/alisagorislav/Documents/cancerhsp_virtual-screening/grid_allosteric/grid_allosteric.zip
+LIGANDFILE   glide-dock_allosteric.maegz
+POSTDOCK_XP_DELE   0.5
+PRECISION   XP
+WRITE_XP_DESC   True
